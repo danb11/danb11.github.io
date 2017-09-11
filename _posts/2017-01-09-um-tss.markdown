@@ -9,8 +9,8 @@ description: UM-TSS PCB and Case project
 image: /assets/images/2017-um-tss/cover.JPG
 image-sm: /assets/images/2017-um-tss/thumb.JPG
 ---
-My first ***all inclusive***-project is finished. 한글이 나왔으면 좋겠는데요 ... 대체 왜일까요??I created a PCB and a case for this little circuit done by [Jacob Watters](http://www.jacobwatters.com/blog/um-tss-drum-machine/). Thanks a lot for letting me use your circuit!
+My first ***all inclusive***-project is finished. 대체 왜일까요?? I created a PCB and a case for this little circuit done by [Jacob Watters](http://www.jacobwatters.com/blog/um-tss-drum-machine/). Thanks a lot for letting me use your circuit!
 
-한글을 한번 추가해볼까요? 한글이 나왔으면좋겠어요 ㅠㅠㅠㅠ
+열받는다고 ㅠㅠ 그로홍 ㅠㅠㅠㅠㅠㅠㅠㅠ
 
 I published the current project status as an Open Hardware Project on [github](https://github.com/tommueller/UM-TSS).
