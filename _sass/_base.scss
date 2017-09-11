@@ -35,7 +35,8 @@ $mq-xxl: 114em;
 }
 
 body {
-  font-family: $font-body;
+  // font-family: $font-body;
+  font-family: 'Noto Sans KR', monospace;
   font-feature-settings: 'liga' 0;
   font-size: 100%;
   line-height: 1.6;
