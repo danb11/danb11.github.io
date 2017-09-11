@@ -1,12 +1,12 @@
 # Site settings
-email:
-baseurl: ""
+email: miliam5234@gmail.com
+baseurl: "https://danb11.github.io"
 paginate: 5
 paginate_path: "/blog/page-:num"
 google_analytics:
 
 # SEO settings
-title: Danbbbb - Showcase of DIY-Projects by tommueller
+title: Danbbbb
 description: Danb's Blog
 url: "https://danb11.github.io"
 twitter_username:
