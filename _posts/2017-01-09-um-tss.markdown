@@ -12,5 +12,6 @@ image-sm: /assets/images/2017-um-tss/thumb.JPG
 My first ***all inclusive***-project is finished. 대체 왜일까요?? I created a PCB and a case for this little circuit done by [Jacob Watters](http://www.jacobwatters.com/blog/um-tss-drum-machine/). Thanks a lot for letting me use your circuit!
 
 열받는다고 ㅠㅠ 그로홍 ㅠㅠㅠㅠㅠㅠㅠㅠ
+9b459eadf79
 
 I published the current project status as an Open Hardware Project on [github](https://github.com/tommueller/UM-TSS).
