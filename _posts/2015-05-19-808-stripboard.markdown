@@ -1,0 +1,22 @@
+---
+layout: post
+title: "808 stripboard build"
+date: 2015-05-19
+categories:
+  - SDIY
+  - Stripboard
+description: Building a new kitchen for our shared flat
+image: /assets/images/2015-808-stripboard/cover.JPG
+image-sm: /assets/images/2015-808-stripboard/thumb.JPG
+---
+I think everyone who is into electronic music is enthused by **the** sound of the father/mother of all drummaschines - [Roland's TR-808](https://de.wikipedia.org/wiki/Roland_TR-808). Prices for original, vintage maschines are mental though (much higher then the original retail price ...). The user [-minus-](http://electro-music.com/forum/profile.php?mode=viewprofile&u=15042) on [electro-music.com](http://electro-music.com) did however release stripboard-layouts for most of the soundsources.
+
+I started with the signature sound of the 808 ... the kickdrum. Here are some quite random demosounds.
+
+<ul class="soundfiles">
+  <li><strong>808 kick demo:</strong><audio src="/assets/audio/808-kick.mp3" name="808 kick demo" controls preload></audio></li>
+</ul>
+
+I sourced all the parts for the rest of the units, but never really got round building it. So I handed the project over to a fellow SDIY-builder here in Berlin. I hope to get some sound samples from him soon.
+
+Since it is quite hard to find all the stripboard-layouts in the different threads, I collected them all and you can download them here: [808-stripboard-layouts](/assets/downloads/808.tar.gz).

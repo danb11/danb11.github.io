@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Fully modded: Monotron"
+date: 2015-06-01
+categories:
+  - Modding
+  - SDIY
+  - Monotron
+description: A fully modded Korg Monotron
+image: /assets/images/2015-monotron/cover.JPG
+image-sm: /assets/images/2015-monotron/thumb.JPG
+---
+Korg's Monotrons are a great toy. Especially because they were obviously build modding friendly. I modded both this Monotron and a [Monotron Delay]({% post_url 2015-06-01-monotron-delay %}). Both toys were turned into an awesome, but still not to serious synthesizer.
+
+### The feature list
+<div marked>
+- replaced all the fiddly pots with normal sized ones
+- replaced Monotrons toggle switch (off - pitch - cutoff) with a new switch
+- added patchpoints for CV, cutoff frequency, gate and external in (check [dinsync](http://www.dinsync.info/2010/06/how-to-modify-korg-monotron.html))
+- added switch to choose between LFO mode between one-shot EG and LFO (check [houshu](http://houshu.at.webry.info/201006/article_3.html))
+- added feedback, the output going back to the input through a simple diode
+- removed R11 to avoid the gate voltage affecting the pitch. Also puts Monotron in “Drone-Mode”
+- switch to turn VCO off (check [houshu](http://houshu.at.webry.info/201006/article_4.html))
+</div>
+
+### More pictures
+![monotron 1](/assets/images/2015-monotron/1.JPG#float-img "monotron 1")
+![monotron 2](/assets/images/2015-monotron/2.JPG#float-img "monotron 2")

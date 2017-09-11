@@ -1,0 +1,37 @@
+# Site settings
+email:
+baseurl: "https://danb11.github.io/"
+paginate: 5
+paginate_path: "/blog/page-:num"
+google_analytics:
+
+# SEO settings
+title: newnoise - Showcase of DIY-Projects by tommueller
+description: Presenting my projects, DIY-builds, synths, software and whatever else.
+url: ""
+twitter_username:
+default_img:
+
+# Profile settings
+name: Tom Müller
+profile_img: /assets/images/profile.JPG
+profile: I am a traffic engineer, programmer, music enthusiast and most of all a creator of things. On this website I present you a broad collection of things I made. Enjoy, get inspired and do not hesitate to contact me with any questions.
+social:
+  github: https://github.com/tommueller
+  stack-overflow: http://stackoverflow.com/users/1423259/newnoise
+
+# Build settings
+include: ["_categories"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "categories.sh"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+kramdown:
+  parse_block_html: true
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]

@@ -1,0 +1,23 @@
+---
+layout: post
+title: "STEPeight - baby8 in Lego-case"
+date: 2015-04-09
+categories:
+  - SDIY
+  - Stripboard
+  - Lego
+description: DIY 8-step sequencer in a Lego case
+image: /assets/images/2015-lego-baby8/cover.JPG
+image-sm: /assets/images/2015-lego-baby8/thumb.JPG
+---
+Another SDIY classic: the baby8. This has been build by so many people in various forms, so I won't go too much into detail. I used this [stripboard-layout](http://electro-music.com/forum/topic-52774.html) to fire it up.
+
+I had already build one of these before in a wooden case, so I wanted to spice this one up a little. Thus I added the following features:
+
+<div marked>
+  - adjustable gate-length (most info is in [here](http://www.sequencer.de/synthesizer/viewtopic.php?f=13&t=94971) _german only, sorry_). Essentially I used [this circuit](/assets/images/2015-lego-baby8/gate2trig.jpg) _thanks a lot to elektrouwe!_
+  - external clock in (just insert it between the "onboard-clock" with a switchable-jack)
+  - external reset in, check from [fonitroniks schematics](http://modular.fonik.de/pdf/baby10.pdf) for details
+</div>
+
+It runs on a 9V battery. So its a nice little autonomous maschine.

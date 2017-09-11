@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Restoring Gaggia CC with manometer mod"
+date: 2016-10-17
+categories:
+  - Modding
+description: Restoring a used Gaggia CC and a manometer
+image: /assets/images/2016-gaggia/cover.JPG
+image-sm: /assets/images/2016-gaggia/thumb.JPG
+---
+I like coffe. A lot. After years of using a [Bialetti](https://en.wikipedia.org/wiki/Moka_pot) I upgraded to a Gaggia Classic, which I bought on eBay. Cheap but not working. Since there is not too much in it, I disassembled the whole piece, decalcified it, added a manometer (just for the looks mostly) and put it back together.
+
+### Decalcifying
+
+**WARNING** _Watch out which decalcifier you use! The CC has an aluminum boiler which must not be treated with several acids. You must not use citric acid for example!_ **WARNING**
+
+The decalcifying was necessary because both the opv and the mv were not working anymore. I labeled all the connectors to the user-interface to be able to put them all back in the right order and then just took everything out. So far so good, the first problem occured when I wanted to open the boiler. It was completly impossible. After days of carefully adding WD-40 and decalcifier i could not even one of the screws out. So I decided to cut there heads of ...
+
+This is how it looked on the inside before the decalcifying. You can see the left overs of the screws in the background ... (the threads of the screws were actually fine, I cut just screw them out with a wrench, the problematic part was where the screws were just sticked through the boiler ...)
+
+![gaggia boiler view 1](/assets/images/2016-gaggia/3.JPG#float-img "gaggia boiler view 1")
+![gaggia boiler view 2](/assets/images/2016-gaggia/4.JPG#float-img "gaggia boiler view 2")
+![gaggia boiler view 3](/assets/images/2016-gaggia/5.JPG#float-img "gaggia boiler view 3")
+
+### Manometer mod
+Adding the manometer is pretty straight forward. You need to buy
+<div marked>
+  - the manometer (should have a range up to at least 15bar), mine already included the capillary tube to connect it with
+  - a [t-connector 1/8"](https://www.espressoxxl.de/T-ANSCHLUSS-MESSING-VERNICKELT-1-8-AUSSEN-AUSSEN-INNEN-GEWINDE-UNIVERSELLE-ANWENDUNG) (one inner, two outer threads) that connects with the pump, the manometer and the opv
+  - a [hose fitting 1/8"](https://www.espressoxxl.de/CK-SCHLAUCHVERSCHRAUBUNG-MANOMETERVERSCHRAUBUNG-1-8-INNENGEWINDE-SCHLAUCH-r-6x4)
+  - some teflon strip to make it waterproof
+</div>
+
+To get the whole into the front I used a drill, a dremel and a file. First I drilled a lot of holes, then cut the little connectors between the holes with the dremel and then filed until the manometer fitted.
+
+Here is a picture of all the connections to the t-piece
+![gaggia inside view](/assets/images/2016-gaggia/2.JPG "gaggia inside view ")
+
+### OPV mod
+The advantage of having a manometer is: I know with which pressure I'm brewing the coffee. The CC is factory wise set up with too much pressure (about 13bar), which can be lowered by adjusting the OPV. No it brews with more relaxed 9.5bar.
+
+### Silvia steam lance
+
+The Gaggia comes with a pretty shitty Panarello for making foamy milk. Probably this is the most common mod to the CC: replacing it with the one from Rancilios Silvia. It's basically a plug and play change. There a lot of How-Tos online!
+
+This is how the maschine looks now:
+
+![gaggia maschine view](/assets/images/2016-gaggia/1.JPG#float-img "gaggia maschine view")

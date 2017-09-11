@@ -1,0 +1,14 @@
+---
+layout: post
+title: "UM-TSS - CMOS drummaschine"
+date: 2017-01-09
+categories:
+  - SDIY
+  - CMOS
+description: UM-TSS PCB and Case project
+image: /assets/images/2017-um-tss/cover.JPG
+image-sm: /assets/images/2017-um-tss/thumb.JPG
+---
+My first ***all inclusive***-project is finished. I created a PCB and a case for this little circuit done by [Jacob Watters](http://www.jacobwatters.com/blog/um-tss-drum-machine/). Thanks a lot for letting me use your circuit!
+
+I published the current project status as an Open Hardware Project on [github](https://github.com/tommueller/UM-TSS).
