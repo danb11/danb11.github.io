@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "UM-TSS - CMOS drummaschine"
+title: "UM-TSS - CMOS drummaschine 한글"
 date: 2017-01-09
 categories:
   - SDIY
@@ -10,5 +10,8 @@ image: /assets/images/2017-um-tss/cover.JPG
 image-sm: /assets/images/2017-um-tss/thumb.JPG
 ---
 My first ***all inclusive***-project is finished. I created a PCB and a case for this little circuit done by [Jacob Watters](http://www.jacobwatters.com/blog/um-tss-drum-machine/). Thanks a lot for letting me use your circuit!
+
+한글을 한번 추가해볼까요?
+한글폰트가 적용되기를 ㅠㅠㅠㅠㅠㅠ
 
 I published the current project status as an Open Hardware Project on [github](https://github.com/tommueller/UM-TSS).
