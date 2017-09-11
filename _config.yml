@@ -1,6 +1,6 @@
 # Site settings
 email:
-baseurl: "https://danb11.github.io"
+baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
 google_analytics:
@@ -8,7 +8,7 @@ google_analytics:
 # SEO settings
 title: newnoise - Showcase of DIY-Projects by tommueller
 description: Presenting my projects, DIY-builds, synths, software and whatever else.
-url: "https://danb11.github.io
+url: "https://danb11.github.io"
 twitter_username:
 default_img:
 
