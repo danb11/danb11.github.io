@@ -1,9 +1,11 @@
 /**
  * Base Variables
  */
-$font-header: 'Space', monospace;
-$font-body: 'Inconsolata', monospace;
-$font-post: 'Lora', serif;
+
+ @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+$font-header: 'Space','Noto Sans KR', monospace;
+$font-body: 'Inconsolata','Noto Sans KR', monospace;
+$font-post: 'Lora','Noto Sans KR', serif;
 
 $color1: #9f8f68;
 $color2: #9f8f68;
@@ -37,6 +39,7 @@ body {
   font-feature-settings: 'liga' 0;
   font-size: 100%;
   line-height: 1.6;
+  font-weight: 200;
 
   @media (min-width: $mq-xs) {
     font-size: 102.5%;
@@ -65,12 +68,15 @@ body {
 
 h1, h2 {
   margin: 0;
+  font-weight: 400;
 
   font-family: $font-header;
+
 }
 
 h1 {
   $fontSize: 3em;
+  font-weight: 600;
 
   @media (min-width: $mq-md) {
     font-size: $fontSize;
