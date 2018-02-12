@@ -3,8 +3,7 @@ layout: post
 title: "UM-TSS - CMOS 한글테스트포스팅"
 date: 2017-01-09
 categories:
-  - SDIY
-  - CMOS
+  - justme
 description: UM-TSS PCB and Case project
 image: /assets/images/2017-um-tss/cover.JPG
 image-sm: /assets/images/2017-um-tss/thumb.JPG
