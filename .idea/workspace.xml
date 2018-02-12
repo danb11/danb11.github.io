@@ -20,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-12-글또를 시작하며.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="405">
-                <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+              <first_editor relative-caret-position="426">
+                <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -48,8 +48,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="60" />
-    <option name="y" value="167" />
+    <option name="x" value="51" />
+    <option name="y" value="43" />
     <option name="width" value="1389" />
     <option name="height" value="848" />
   </component>
@@ -117,15 +117,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518451718076</updated>
-      <workItem from="1518451719161" duration="349000" />
+      <workItem from="1518451719161" duration="473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349000" />
+    <option name="totallyTimeSpent" value="473000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="167" width="1389" height="848" extended-state="0" />
+    <frame x="51" y="43" width="1389" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -161,8 +161,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-12-글또를 시작하며.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <first_editor relative-caret-position="426">
+            <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
             <folding />
           </first_editor>
           <second_editor />
