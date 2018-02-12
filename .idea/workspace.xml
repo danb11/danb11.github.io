@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f91fab5e-4536-40b5-8f19-3da8a7567ef7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-02-12-글또를 시작하며.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-02-12-글또를 시작하며.markdown" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,12 +29,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-02-12-글또를 시작하며.markdown" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-02-12-글또를 시작하며.markdown">
+      <file leaf-file-name="2018-02-12-글또를 시작하며.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-02-12-글또를 시작하며.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <first_editor relative-caret-position="480">
+                <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -65,6 +64,7 @@
         <option value="$PROJECT_DIR$/_categories/sdiy.html" />
         <option value="$PROJECT_DIR$/_posts/2017-01-09-um-tss.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-02-12-글또를 시작하며.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-02-12-글또를 시작하며.markdown" />
       </list>
     </option>
   </component>
@@ -75,8 +75,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
-    <option name="y" value="89" />
+    <option name="y" value="57" />
     <option name="width" value="1389" />
     <option name="height" value="848" />
   </component>
@@ -175,15 +174,15 @@
       <option name="presentableId" value="Default" />
       <updated>1518448888991</updated>
       <workItem from="1518448890982" duration="1076000" />
-      <workItem from="1518450056413" duration="20000" />
+      <workItem from="1518450056413" duration="256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1096000" />
+    <option name="totallyTimeSpent" value="1332000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="89" width="1389" height="848" extended-state="0" />
+    <frame x="0" y="57" width="1389" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -268,20 +267,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-12-글또를 시작하며.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-02-12-글또를 시작하며.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="567">
+            <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -302,14 +295,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-12-글또를 시작하며.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-02-12-글또를 시작하며.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <first_editor relative-caret-position="480">
+            <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
