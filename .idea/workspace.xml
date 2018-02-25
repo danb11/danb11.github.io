@@ -4,7 +4,6 @@
     <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md" afterPath="$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md" />
       <change beforePath="$PROJECT_DIR$/_sass/_base.scss" afterPath="$PROJECT_DIR$/_sass/_base.scss" />
-      <change beforePath="$PROJECT_DIR$/assets/images/20180225_udateApp/10.png" afterPath="$PROJECT_DIR$/assets/images/20180225_udateApp/10.png" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="311">
-                <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <first_editor relative-caret-position="429">
+                <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -95,6 +94,7 @@
       <find>preview</find>
       <find>justme</find>
       <find>font</find>
+      <find>serif</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/_posts</dir>
@@ -218,12 +218,12 @@
       <updated>1518451718076</updated>
       <workItem from="1518451719161" duration="1999000" />
       <workItem from="1518453766703" duration="1495000" />
-      <workItem from="1519541611030" duration="6780000" />
+      <workItem from="1519541611030" duration="6998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10274000" />
+    <option name="totallyTimeSpent" value="10492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="93" width="1589" height="994" extended-state="0" />
@@ -477,8 +477,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="311">
-            <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <first_editor relative-caret-position="429">
+            <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
