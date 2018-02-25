@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md" afterPath="$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md" />
+      <change beforePath="$PROJECT_DIR$/_sass/_base.scss" afterPath="$PROJECT_DIR$/_sass/_base.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="596">
-                <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+              <first_editor relative-caret-position="659">
+                <caret line="125" column="136" lean-forward="false" selection-start-line="125" selection-start-column="136" selection-end-line="125" selection-end-column="136" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -121,7 +122,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
+    <option name="x" value="64" />
     <option name="y" value="93" />
     <option name="width" value="1589" />
     <option name="height" value="994" />
@@ -217,15 +218,15 @@
       <updated>1518451718076</updated>
       <workItem from="1518451719161" duration="1999000" />
       <workItem from="1518453766703" duration="1495000" />
-      <workItem from="1519541611030" duration="7118000" />
+      <workItem from="1519541611030" duration="7461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10612000" />
+    <option name="totallyTimeSpent" value="10955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="93" width="1589" height="994" extended-state="0" />
+    <frame x="64" y="93" width="1589" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16772959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -476,8 +477,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="596">
-            <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <first_editor relative-caret-position="659">
+            <caret line="125" column="136" lean-forward="false" selection-start-line="125" selection-start-column="136" selection-end-line="125" selection-end-column="136" />
             <folding />
           </first_editor>
           <second_editor />
