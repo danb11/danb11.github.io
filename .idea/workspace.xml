@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md" afterPath="$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md" />
-      <change beforePath="$PROJECT_DIR$/_sass/_base.scss" afterPath="$PROJECT_DIR$/_sass/_base.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="659">
-                <caret line="125" column="136" lean-forward="false" selection-start-line="125" selection-start-column="136" selection-end-line="125" selection-end-column="136" />
+              <first_editor relative-caret-position="180">
+                <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -218,12 +217,12 @@
       <updated>1518451718076</updated>
       <workItem from="1518451719161" duration="1999000" />
       <workItem from="1518453766703" duration="1495000" />
-      <workItem from="1519541611030" duration="7461000" />
+      <workItem from="1519541611030" duration="7607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10955000" />
+    <option name="totallyTimeSpent" value="11101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="93" width="1589" height="994" extended-state="0" />
@@ -477,8 +476,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="659">
-            <caret line="125" column="136" lean-forward="false" selection-start-line="125" selection-start-column="136" selection-end-line="125" selection-end-column="136" />
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             <folding />
           </first_editor>
           <second_editor />
