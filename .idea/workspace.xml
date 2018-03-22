@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-03-22-iOS 컬렉션뷰 안에 컬렉션뷰넣기.md" afterPath="$PROJECT_DIR$/_posts/2018-03-22-iOS 컬렉션뷰 안에 컬렉션뷰넣기.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-03-22-iOS 컬렉션뷰 안에 컬렉션뷰넣기.md" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -52,12 +52,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-03-22-iOS 컬렉션뷰 안에 컬렉션뷰넣기.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-03-22-iOS 컬렉션뷰 안에 컬렉션뷰넣기.md">
+      <file leaf-file-name="2018-03-22-collectionviewCellInsertCollectionview.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-03-22-collectionviewCellInsertCollectionview.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="626">
-                <caret line="190" column="6" lean-forward="true" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
+              <first_editor relative-caret-position="225">
+                <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -127,6 +127,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md" />
         <option value="$PROJECT_DIR$/_posts/2018-03-22-iOS 컬렉션뷰안에 컬렉션뷰?!.md" />
         <option value="$PROJECT_DIR$/_posts/2018-03-22-iOS 컬렉션뷰 안에 컬렉션뷰넣기.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-03-22-collectionviewCellInsertCollectionview.md" />
       </list>
     </option>
   </component>
@@ -137,7 +138,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-44" />
+    <option name="x" value="1" />
     <option name="y" value="74" />
     <option name="width" value="1589" />
     <option name="height" value="994" />
@@ -239,15 +240,15 @@
       <workItem from="1518451719161" duration="1999000" />
       <workItem from="1518453766703" duration="1495000" />
       <workItem from="1519541611030" duration="8009000" />
-      <workItem from="1521723716708" duration="6070000" />
+      <workItem from="1521723716708" duration="6280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17573000" />
+    <option name="totallyTimeSpent" value="17783000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-44" y="74" width="1589" height="994" extended-state="0" />
+    <frame x="1" y="74" width="1589" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16772959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -540,22 +541,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-03-22-iOS 컬렉션뷰 안에 컬렉션뷰넣기.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <first_editor relative-caret-position="675">
+            <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-03-22-iOS 컬렉션뷰 안에 컬렉션뷰넣기.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="626">
-            <caret line="190" column="6" lean-forward="true" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-03-22-collectionviewCellInsertCollectionview.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

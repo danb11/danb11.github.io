@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "CollectionviewInsertCollectionView"
+title: "컬렉션뷰 안에 컬렉션뷰넣기"
 date: 2018-03-22
 categories:
   - iOS
-description: iOS 컬렉션뷰 안에 컬렉션뷰를 넣어보자
+description: iOS 컬렉션뷰 안에 컬렉션뷰를 넣어보기
 image: /assets/images/0322/main.png
 image-sm: /assets/images/0322/main_thum.png
 ---
@@ -55,7 +55,7 @@ image-sm: /assets/images/0322/main_thum.png
   
   
 
-```
+``
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if section == 0 {
