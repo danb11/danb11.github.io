@@ -4,7 +4,7 @@ title: "컬렉션뷰 안에 컬렉션뷰넣기"
 date: 2018-03-22
 categories:
   - iOS
-description: iOS 컬렉션뷰 안에 컬렉션뷰를 넣어보기
+description: iOS 컬렉션뷰 안에 컬렉션뷰를 넣어보자
 image: /assets/images/0322/main.png
 image-sm: /assets/images/0322/main_thum.png
 ---
@@ -55,7 +55,7 @@ image-sm: /assets/images/0322/main_thum.png
   
   
 
-``
+````
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if section == 0 {
@@ -90,7 +90,7 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, 
     }
 }
 
-```  
+````  
 
 
 여기까지 컬렉션 뷰를 그려주는 코드이다. 알아보기 편하게 text에 indexPath를 넣어주었다.
