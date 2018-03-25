@@ -54,65 +54,17 @@ image-sm: /assets/images/0322/main_thum.png
 - B컬렉션뷰는 무조건 0번 section이기 때문에 다른 셀과 section으로 구분해주면 된다.   
   
   
-
-````
-extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if section == 0 {
-            return 1
-        } else {
-            return 5
-        }
-    }
-    
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 2
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        if indexPath.section == 0 {
-            let slidingCell = collectionView.dequeueReusableCell(withReuseIdentifier: "SlidingCell", for: indexPath) as! SlidingCell
-            return slidingCell
-            
-        } else {
-            let normalCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! NormalCell
-            normalCell.normalLabel.text = "Normal Cell \(indexPath.row)"
-            return normalCell
-        }
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        if indexPath.section == 0 {
-            return CGSize(width: collectionView.frame.width, height: 160)
-        } else {
-            return CGSize(width: collectionView.frame.width, height: 100)
-        }
-    }
-}
-
-````  
-
-
-여기까지 컬렉션 뷰를 그려주는 코드이다. 알아보기 편하게 text에 indexPath를 넣어주었다.
   
   
+![스크린샷1](/assets/images/0322/스크린샷1.png)
+
+
+여기까지 컬렉션 뷰를 그려주는 코드이다. 알아보기 편하게 NormalCell의 Label에 indexPath를 넣어주었다.
   
-```
-class NormalCell: UICollectionViewCell {
-    
-    @IBOutlet weak var normalLabel: UILabel!
-    
-}
+     
+     
+![스크린샷2](/assets/images/0322/스크린샷2.png)
 
-class SlidingCell: UICollectionViewCell {
-    
-    
-    @IBOutlet weak var slidingCollectionView: UICollectionView!
-    
-}
-
-
-```
 
 셀클래스까지 여기까지 어렵지 않게 따라할 수 있을거다.  
 A컬렉션뷰에 NormalCell, SlidingCell이 들어있는 구조이다. 
@@ -128,53 +80,17 @@ A컬렉션뷰에 NormalCell, SlidingCell이 들어있는 구조이다.
 1.B컬렉션뷰는 A컬렉션뷰의 0번째 셀인 **SlidingCell** 클래스에 추가해준다.       
 
 
-```
-class SlidingCell: UICollectionViewCell {
-    
-    var imageArray = [#imageLiteral(resourceName: "1"),#imageLiteral(resourceName: "3"),#imageLiteral(resourceName: "2")]
-    @IBOutlet weak var slidingCollectionView: UICollectionView!
-    
-    override func awakeFromNib() {
-        slidingCollectionView.dataSource = self
-    }
-    
-}
+![스크린샷3](/assets/images/0322/스크린샷3.png)
 
-```  
 기존에 Outlet만 만들어 놓은 SlidingCell에  B컬렉션뷰 dataSource를 Self로 추가해준다. B컬렉션뷰에 들어갈 이미지 어레이도 추가해주었다.   
     
     
+   
+![스크린샷4](/assets/images/0322/스크린샷4.png)
 
-````
-extension SlidingCell: UICollectionViewDataSource {
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return imageArray.count
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let innerCell = collectionView.dequeueReusableCell(withReuseIdentifier: "InnerCell", for: indexPath) as! innerCell
-        innerCell.innerImageView.image = imageArray[indexPath.item]
-        innerCell.innerLabel.text = "inner Cell \(indexPath.item)"
-        return innerCell
-    }
-    
-}
-````
+
 SlidingCell클래스에 extension으로 UICollectionViewDataSource를 만들어준다.        
 이미지는 imageArray에 미리 넣어둔 이미지, 그리고 텍스트는 알아보기 편하도록 셀이름과 idexPath를 넣어주었다.
-     
-     
-
-````
-class innerCell: UICollectionViewCell {
-    
-    @IBOutlet weak var innerImageView: UIImageView!
-    @IBOutlet weak var innerLabel: UILabel!
-    
-}
-````
-가장 안쪽 innerCell이다 B컬렉션뷰 안에 있는 가로로 넘어갈 셀 내용이다. (이미지와, 라벨을 넣어주었다.)
       
       
 
@@ -195,4 +111,8 @@ class innerCell: UICollectionViewCell {
 <br />
 단순히 컬렉션뷰 안에 컬렉션뷰 넣는게 뭐 어렵나 생각했는데, 셀클래스를 extexsion으로 datasource를 만든다는 자체를 생각하지 못했다.~~(아직많이부족한초보개발자😂)~~ 한번 만들어보니 어렵지 않다고 느꼈으나 아직 경험이 부족해서 스스로 다양한 시도를 많이 해봐야겠다고 느낀 업데이트였다.  
   
-▶︎ 혹시 예제를 따라하다 어떤 문제가 발생하거나 잘 안된다면 편하게 밑에 **프로필**로 연락주세요!
+※ 혹시 예제를 따라하다 어떤 문제가 발생하거나 잘 안된다면 편하게 밑에 **프로필**로 연락주세요!
+
+     
+http://goo.gl/C6sihi      
+전체코드보기
