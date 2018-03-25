@@ -114,5 +114,4 @@ SlidingCell클래스에 extension으로 UICollectionViewDataSource를 만들어�
 ※ 혹시 예제를 따라하다 어떤 문제가 발생하거나 잘 안된다면 편하게 밑에 **프로필**로 연락주세요!
 
      
-http://goo.gl/C6sihi      
-전체코드보기
+[코드 전체보기](https://gist.github.com/danb11/edee97ad97ba5959db60dc7fa815cff8)
