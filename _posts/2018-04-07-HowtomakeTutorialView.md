@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "처음 튜토리얼뷰 만들기"
-date: 2018-03-22
+date: 2018-04-07
 categories:
   - iOS
 description: iOS 앱 처음 튜토리얼뷰를 넣어보았습니다.
