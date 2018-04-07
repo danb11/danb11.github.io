@@ -51,7 +51,7 @@ image-sm: /assets/images/0322/main_thum.png
     
     
     
-### 3. 코드로 만들기
+### 2. 코드로 만들기
 1.코드로 컬렉션뷰를 채워주자.   
 2.A컬렉션뷰를 만들어주기 위해 ViewController에 extension으로 collectionview를 넣어준다.  
 3.B컬렉션뷰는 무조건 0번 section이기 때문에 다른 셀과 section으로 구분해주면 된다.   
@@ -101,7 +101,7 @@ A컬렉션뷰에 NormalCell, SlidingCell이 들어있는 구조이다.
 
 <br />
 
-### 3. 완성 그리고 ...
+### 4. 완성 그리고 ...
 
 
 ![완성Gif](/assets/images/0322/complate.gif)    
