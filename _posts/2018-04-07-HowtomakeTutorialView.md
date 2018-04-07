@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "처음 튜토리얼뷰 만들기"
+title: "앱 첫화면 튜토리얼뷰 만들기"
 date: 2018-04-07
 categories:
   - iOS
