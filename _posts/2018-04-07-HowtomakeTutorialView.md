@@ -39,10 +39,12 @@ image-sm: /assets/images/0407/main_small.png
 2.상단에 **다시는 보지 않기** 와 **X**닫기 버튼을 넣고 오토레이아웃을 맞춰준다.  
 
   
+    
+    
   
 ![xcode기기적용코드](/assets/images/0407/device.png)
 
-
+  
 3.기기별로 다른 이미지로 적용해준다.  
 나는 스크린의로 넓이와 높이로 기기를 분별할 수 있는 struct를 만들어놨다.
   
@@ -53,7 +55,9 @@ image-sm: /assets/images/0407/main_small.png
 4.DeviceAdjust Struct를 이용해 앱의 첫 화면에 코드로 이미지를 바꿔준다. 
 이제 이미지는 잘 불릴 것이다. (아이콘처럼 보이는건 **Image Literal**을 사용해서 그렇다.😜 )
 
-
+  
+    
+    
     
 ### 2. 닫기 || 다시 보지 않기  
 
@@ -83,7 +87,7 @@ image-sm: /assets/images/0407/main_small.png
 <br />
 
 
-### 3. 완성~
+### 3. 완성-!!
 
   
 **다 됐다!** 이제 각종 테스트를 해보고 업데이트를 올려주면 된다.  
