@@ -33,8 +33,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <first_editor relative-caret-position="531">
+                <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -121,8 +121,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="208" />
-    <option name="y" value="155" />
+    <option name="x" value="-9" />
+    <option name="y" value="98" />
     <option name="width" value="1571" />
     <option name="height" value="914" />
   </component>
@@ -231,15 +231,15 @@
       <workItem from="1522826611602" duration="670000" />
       <workItem from="1523081171083" duration="7336000" />
       <workItem from="1523178425424" duration="953000" />
-      <workItem from="1524290312463" duration="5245000" />
+      <workItem from="1524290312463" duration="5600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34281000" />
+    <option name="totallyTimeSpent" value="34636000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="208" y="155" width="1571" height="914" extended-state="0" />
+    <frame x="-9" y="98" width="1571" height="914" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16967742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -670,8 +670,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <first_editor relative-caret-position="531">
+            <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
