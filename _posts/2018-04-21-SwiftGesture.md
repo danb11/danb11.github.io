@@ -5,8 +5,8 @@ date: 2018-04-21
 categories:
   - iOS
 description: iOS Gesture에 대해 알아봅시다. 1.TapGesture
-image: /assets/images/0407/main_big.png
-image-sm: /assets/images/0407/main_small.png
+image: /assets/images/0421/main.png
+image-sm: /assets/images/0421/main_th.png
 ---
 
 
@@ -85,13 +85,13 @@ Tap 됐을 때, Long Press 됐을 때 어떤 동작을 했으면 좋겠는지 Ac
 ### 4. 완성-!!
   
 ![완성gif](/assets/images/0421/gesture.gif)
-자 이제 확인해 보자. 내가 만든 제스처가 잘 동작하는지 확인하면된다. 나는 LongPress를 너무 짧게 설정했는지 빠르게 노란화면이 나온다.. 잘보면서 맞춰서 설정해주면 될 것 같다.  
+자 이제 확인해 보자. 내가 만든 제스처가 잘 동작하는지 확인하면된다. 나는 LongPress를 너무 짧게 설정했는지 빠르게 노란화면이 나온다.. 잘 보면서 계획에 맞춰 설정해주면 될 것 같다.  
+
+
+[iOS UIGesture문서 보기](https://developer.apple.com/documentation/uikit/uigesturerecognizer)
 
 
 
-
-
-  
 <br />
 
 
