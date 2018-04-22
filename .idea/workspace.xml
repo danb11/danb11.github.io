@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture.md" afterPath="$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture.md" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture.md" afterPath="$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture1.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-03-22-collectionviewCellInsertCollectionview.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="636">
-                <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="74" />
+              <first_editor relative-caret-position="546">
+                <caret line="115" column="6" lean-forward="true" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -29,12 +30,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-04-21-SwiftGesture.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture.md">
+      <file leaf-file-name="2018-04-21-SwiftGesture1.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="531">
-                <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <first_editor relative-caret-position="326">
+                <caret line="76" column="2" lean-forward="true" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -111,6 +112,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-04-07-HowtomakeIntroView.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-07-HowtomakeTutorialView.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture1.md" />
       </list>
     </option>
   </component>
@@ -121,8 +123,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="98" />
+    <option name="x" value="102" />
+    <option name="y" value="169" />
     <option name="width" value="1571" />
     <option name="height" value="914" />
   </component>
@@ -231,15 +233,15 @@
       <workItem from="1522826611602" duration="670000" />
       <workItem from="1523081171083" duration="7336000" />
       <workItem from="1523178425424" duration="953000" />
-      <workItem from="1524290312463" duration="5600000" />
+      <workItem from="1524290312463" duration="6002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34636000" />
+    <option name="totallyTimeSpent" value="35038000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="98" width="1571" height="914" extended-state="0" />
+    <frame x="102" y="169" width="1571" height="914" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16967742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -272,17 +274,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-25-iOS앱 업데이트하기.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_categories/justme.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -656,22 +647,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-03-22-collectionviewCellInsertCollectionview.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="636">
-            <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="74" />
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-03-22-collectionviewCellInsertCollectionview.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="531">
-            <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <first_editor relative-caret-position="546">
+            <caret line="115" column="6" lean-forward="true" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="326">
+            <caret line="76" column="2" lean-forward="true" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />

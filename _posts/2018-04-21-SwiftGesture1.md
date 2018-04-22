@@ -91,6 +91,7 @@ Tap 됐을 때, Long Press 됐을 때 어떤 동작을 했으면 좋겠는지 Ac
 자 이제 확인해 보자. 내가 만든 제스처가 잘 동작하는지 확인하면된다. 핑크 ->(tap) 그레이 ->(LongPress) 노랑 순으로 잘나온다. 나는 LongPress를 너무 짧게(0.5초) 설정했는지 빠르게 노란화면이 나온다.. 잘 보면서 계획에 맞춰 설정해주면 될 것 같다.  
 
 
+
 [iOS UIGesture문서 보기](https://developer.apple.com/documentation/uikit/uigesturerecognizer)
 
 
