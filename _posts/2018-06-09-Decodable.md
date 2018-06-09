@@ -54,7 +54,7 @@ swift에서 **Alimofire**라는 라이브러리는 iOS 개발자들 사이에서
 
 <div style="background-color: #EDEDED">
 
-{% highlight swift %}
+{% highlight swift %}  
 
     struct Course : Decodable {
         var id: Int = 0
@@ -94,7 +94,7 @@ swift에서 **Alimofire**라는 라이브러리는 iOS 개발자들 사이에서
   
 <div style="background-color: #EDEDED">
 
-{% highlight swift %}
+{% highlight swift %}  
     
     class ApiCenter {
         static func getCourses(completion: @escaping ([Course]) -> Void) {
@@ -138,7 +138,7 @@ swift는 typecasting에 아주 엄격한 언어이기 때문에 하나라도 다
 자, 코드로 확인해보자.  
   
 <div style="background-color: #EDEDED">
-{% highlight swift %}
+{% highlight swift %}  
 
     var courses: [Course]?
 
@@ -176,7 +176,7 @@ swift는 typecasting에 아주 엄격한 언어이기 때문에 하나라도 다
 잘 들어온걸 확인했지만, 개인적으로 공부하면서 type이 mismatch되었다는 에러를 너무 많이 봤다. 보통 내가 꼼꼼하게 챙기지 못해서였지만, 다시 한번 짚고 넘어가보자  
   
 <div style="background-color: #EDEDED">
-{% highlight swift %}
+{% highlight swift %}  
 
     struct Course : Decodable {
         var id: String = ""
@@ -192,7 +192,8 @@ swift는 typecasting에 아주 엄격한 언어이기 때문에 하나라도 다
             case imageUrl = "imageUrl"
             case numberOfLesson = "number_of_lessons"
         }
-    }
+    }  
+
 {% endhighlight %}
 </div>  
   
