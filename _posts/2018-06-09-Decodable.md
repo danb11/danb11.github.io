@@ -37,6 +37,8 @@ swift에서 **Alimofire**라는 라이브러리는 iOS 개발자들 사이에서
 ![샘플 데이터 이미지](/assets/images/0605/dummy.png)
 샘플 더미 데이터를 클릭하면 이런 화면이 나올 것이다.  
 이걸 바탕으로 우리가 가져올 데이터가 어떤 타입인지 어떤 내용이 들어있는지 알 수 있다.  
+  
+  
 
   
 ![데이터 분석 이미지](/assets/images/0605/courseArray..jpeg)
@@ -159,12 +161,16 @@ swift는 typecasting에 아주 엄격한 언어이기 때문에 하나라도 다
 </div>  
 
   
-데이터를 가져오는 함수 getCourseData를 viewDidLoad에 넣어줘 뷰가 로드되면서 가져올 수 있도록 했다. **dump**는 print와 달리 객체의 값까지 다 하단 디버그창에서 확인할 수 있다.  
+데이터를 가져오는 함수 getCourseData를 viewDidLoad에 넣어줘 뷰가 로드되면서 가져올 수 있도록 했다. **dump**는 print와 달리 객체의 값까지 다 하단 디버그창에서 확인할 수 있다.   
+  
+   
 
   
-![샘플 데이터 이미지](/assets/images/0605/dump.png)  
+![샘플 데이터 이미지](/assets/images/0605/dump.png)
 데이터가 아름답게 잘 들어왔뜨아! Decodable을 공부하면서 너무 많은 에러메시지를 보아서 이렇게 데이터가 나오면 세상 그렇게 기쁠 수가 없다.🤩  
   
+    
+<br />  
     
     
     
@@ -195,13 +201,14 @@ swift는 typecasting에 아주 엄격한 언어이기 때문에 하나라도 다
   
 Course의 id를 Int에서 String으로 바꿔보았다.  
   
+    
+  
 ![에러 메시지](/assets/images/0605/error.png)  
-
 
 감.동. 정확히 **typeMismatch**로 "id"의 IntValue가 nil이라고 알려준다. 역시 swift는 스릉흔드...💕    
 
   
-  
+<br /> 
   
   
     
