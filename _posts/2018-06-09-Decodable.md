@@ -31,7 +31,7 @@ swift에서 **Alimofire**라는 라이브러리는 iOS개발자들 사이에서 
 
 
 [샘플 더미 데이터](https://api.letsbuildthatapp.com/jsondecodable/courses)  
-*※ 출처:[LBTA](https://www.letsbuildthatapp.com/)*  
+*※ 출처: [LBTA](https://www.letsbuildthatapp.com/)*  
   
 
 ![샘플 데이터 이미지](/assets/images/0605/dummy.png)
@@ -53,9 +53,9 @@ swift에서 **Alimofire**라는 라이브러리는 iOS개발자들 사이에서 
   
 이제 데이터를 넣어줄 모델을 코드로 만들어보자.
 
-<span style="background-color: #EDEDED">
-{% highlight swift %}
 
+{% highlight swift %}
+<span style="background-color: #EDEDED">
 struct Course : Decodable {
     var id: Int = 0
     var name: String = ""
@@ -71,8 +71,9 @@ struct Course : Decodable {
         case numberOfLesson = "number_of_lessons"
     }
 }
-{% endhighlight %}
 </span>
+{% endhighlight %}
+
 
 여기서 **Decodable**이 뭘까 궁금증이 생길 것이다.  
 이번에 새로 공부하며 Codable이란 것을 알게되었다. Codable에는 Decodable과 Encodable이 있는데 말 그대로 데이터를 네트워크에서 가져올 때 내가 원하는 타입으로 변환해 가져오고, 보낼 수 있는 것이다.  
@@ -91,8 +92,8 @@ struct Course : Decodable {
   
 이제 우리가 만들어준 Course 구조에 서버의 데이터 내용을 넣어보자!  
   
-<span style="background-color: #EDEDED">
 {% highlight swift %}
+<span style="background-color: #EDEDED">
 
 class ApiCenter {
     
@@ -124,23 +125,25 @@ class ApiCenter {
         }.resume()
     }
 }
-{% endhighlight %}
 </span>
+
+{% endhighlight %}
   
 앞에서 체크했듯이 우리가 가져올 데이터는 **Course가 4개 들어있는 Array**이기 떄문에 반환받는 데이터의 타입은 **[Course]**가 된다.
 swift4이후로 Decodable을 사용하면 URLSession으로 데이터를 가공해주는 코드가 확연히 줄어들었다.  
 
 <br />
 
-
+  
 ### 4. 데이터가 잘 들어왔나~
   
 두구두구-!  
 swift는 typeCasting에 아주 엄격한 언어이기 때문에 하나라도 다른 타입이 들어오면 아예 디코딩을 못한다.  
 자, 확인해봅시다.  
 
-<span style="background-color: #EDEDED">
 {% highlight swift %}
+<span style="background-color: #EDEDED">
+
     var courses: [Course]?
 
     override func viewDidLoad() {
@@ -159,8 +162,10 @@ swift는 typeCasting에 아주 엄격한 언어이기 때문에 하나라도 다
         }
         
     }
-{% endhighlight %}
+    
 </span>  
+
+{% endhighlight %}
   
 데이터를 가져오는 함수 getCourseData를 viewDidLoad에 넣어줘 뷰가 로드되면서 가져올 수 있도록 했다. **dump**는 print와 달리 객체의 값까지 다 하단 디버그창에서 확인할 수 있다.
   
@@ -169,7 +174,8 @@ swift는 typeCasting에 아주 엄격한 언어이기 때문에 하나라도 다
 데이터가 아름답게 잘 들어왔뜨아! Decodable을 공부하면서 너무 많은 에러메세지를 보아서 이렇게 데이터가 나오면 세상 그렇게 기쁠 수가 없다.🤩  
   
     
-  
+    
+    
 ### 5. 타입이 틀렸다면..?  
   
 잘 들어온걸 확인했지만, 개인적으로 공부하면서 type이 mismatch되었다는 에러를 너무 많이보았습니다. 저의 불찰이지만 다시 한번 짚고 넘어가보자  
@@ -197,18 +203,22 @@ struct Course : Decodable {
 Course의 id를 Int에서 String으로 바꿔보았다.  
 
   
-  <span style="background-color: #EDEDED">
   {% highlight swift %}
-Error serializing json: typeMismatch(Swift.String, Swift.DecodingError.Context(codingPath: [_JSONKey(stringValue: "Index 0", intValue: 0), CodingKeys(stringValue: "id", intValue: nil)], debugDescription: "Expected to decode String but found a number instead.", underlyingError: nil))
+  <span style="background-color: #EDEDED">
+
+Error serializing json: typeMismatch(Swift.String, Swift.DecodingError.Context(codingPath: [_JSONKey(stringValue: "Index 0", intValue: 0), <br>
+CodingKeys(stringValue: "id", intValue: nil)], debugDescription: "Expected to decode String but found a number instead.", underlyingError: nil))
+  </span>  
 
   {% endhighlight %}
-  </span>  
 
 감.동. 정확히 **typeMismatch**로 "id"의 IntValue가 nil이라고 알려준다. 역시 swift는 스릉흔드...💕  
   
   
+  
+  
     
-### 5. 라이브러리의 달콤함
+### 6. 라이브러리의 달콤함
   
 물론 좋은 라이브러리를 사용하면 코드가 확실히 줄어드는 경우도 있고, 복잡한 애니메이션을 간단하게 가져와 쓸 수 있다. 정-말 무공무진하고 어메이징한 라이브러리들을 잘 사용하면 앱의 퀄리티가 높아지기도 한다. 하지만 핵데이때 만난 멘토님은 이제 시작하는 초보개발자가 라이브러리의 편리함만 찾는 것은 좋지 않은 습관이라는 생각해 라이브러리 사용을 제한했다고 한다.    
 나도 라이브러리를 지향하는 것은 아니지만 막연히 이 경우는 이 라이브러리를 사용하는게 습관되어있던 것 같다. 라이브러리를 사용하지 않고 swift로도 충분히 할 수 있는 코드를 짤 수 있도록 더 노력해야겠다.~~(내가 오픈소스를 만드는 날도 곧 오기를..!!)~~  
