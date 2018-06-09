@@ -206,7 +206,7 @@ Course의 id를 Int에서 String으로 바꿔보았다.
   
 ![에러 메시지](/assets/images/0605/error.png)  
 
-감.동. 정확히 **typeMismatch**로 "id"의 IntValue가 nil이라고 알려준다. 역시 swift는 스릉흔드...💕    
+감.동. 정확히 **typeMismatch**로 "id"의 IntValue가 nil이라고 알려준다. 역시 swift 스릉흔드...💕 이렇게 에러메시지를 천천히 읽고 모델의 타입문제인지, 데이터를 가져올 때의 문제인지 확인하고 디버깅해주자.   
 
   
 <br /> 
