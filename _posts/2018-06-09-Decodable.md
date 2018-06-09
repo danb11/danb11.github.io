@@ -94,7 +94,6 @@ struct Course : Decodable {
   
   
 <div style="background-color: white">
-{% highlight swift %}
 
 class ApiCenter {
     
@@ -126,7 +125,6 @@ class ApiCenter {
         }.resume()
     }
 }
-{% endhighlight %}  
 </div>
 
   
