@@ -55,7 +55,7 @@ swift에서 **Alimofire**라는 라이브러리는 iOS개발자들 사이에서 
 
 
 {% highlight swift %}
-<span style="background-color: #EDEDED">
+<div style="background-color: #EDEDED">
 struct Course : Decodable {
     var id: Int = 0
     var name: String = ""
@@ -71,7 +71,7 @@ struct Course : Decodable {
         case numberOfLesson = "number_of_lessons"
     }
 }
-</span>
+</div>
 {% endhighlight %}
 
 
@@ -93,7 +93,7 @@ struct Course : Decodable {
 이제 우리가 만들어준 Course 구조에 서버의 데이터 내용을 넣어보자!  
   
 {% highlight swift %}
-<span style="background-color: #EDEDED">
+<div style="background-color: white">
 
 class ApiCenter {
     
@@ -125,7 +125,7 @@ class ApiCenter {
         }.resume()
     }
 }
-</span>
+</div>
 
 {% endhighlight %}
   
@@ -142,7 +142,7 @@ swift는 typeCasting에 아주 엄격한 언어이기 때문에 하나라도 다
 자, 확인해봅시다.  
 
 {% highlight swift %}
-<span style="background-color: #EDEDED">
+<div style="background-color: #EDEDED">
 
     var courses: [Course]?
 
@@ -163,7 +163,7 @@ swift는 typeCasting에 아주 엄격한 언어이기 때문에 하나라도 다
         
     }
     
-</span>  
+</div>  
 
 {% endhighlight %}
   
