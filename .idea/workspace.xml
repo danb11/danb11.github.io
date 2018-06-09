@@ -43,12 +43,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-05-26-SwiftGesture2.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-05-26-SwiftGesture2.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-26-SwiftGesture2.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="115">
-                <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <first_editor relative-caret-position="331">
+                <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -56,12 +56,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-09-Decodable.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-06-09-Decodable.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-09-Decodable.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+              <first_editor relative-caret-position="31">
+                <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -139,8 +139,8 @@
         <option value="$PROJECT_DIR$/_posts/2018-04-07-HowtomakeTutorialView.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture1.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-06-09-Decodable.md" />
         <option value="$PROJECT_DIR$/_posts/2018-05-26-SwiftGesture2.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-09-Decodable.md" />
       </list>
     </option>
   </component>
@@ -152,9 +152,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="77" />
-    <option name="y" value="64" />
-    <option name="width" value="1571" />
-    <option name="height" value="914" />
+    <option name="y" value="23" />
+    <option name="width" value="1397" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -240,18 +240,18 @@
       <workItem from="1524290312463" duration="6002000" />
       <workItem from="1527431155153" duration="42000" />
       <workItem from="1527590109171" duration="312000" />
-      <workItem from="1528523789840" duration="589000" />
+      <workItem from="1528523789840" duration="9201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35981000" />
+    <option name="totallyTimeSpent" value="44593000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="64" width="1571" height="914" extended-state="0" />
+    <frame x="77" y="23" width="1397" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16967742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13081396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -649,22 +649,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-09-Decodable.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-26-SwiftGesture2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <first_editor relative-caret-position="331">
+            <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-26-SwiftGesture2.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-09-Decodable.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="115">
-            <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <first_editor relative-caret-position="31">
+            <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />

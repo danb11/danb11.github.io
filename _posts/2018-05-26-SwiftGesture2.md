@@ -57,18 +57,7 @@ image-sm: /assets/images/0526/main_th.png
   
 ![제스처recognizer추가](/assets/images/0526/gesture2.png)
 
-  
-  
-{% highlight swift %}
 
-@IBAction func touchedButton(_ sender: Any) {
-        let picker = UIImagePickerController()
-        picker.delegate = self
-        picker.sourceType = .photoLibrary
-        present(picker, animated: false, completion: nil)
-        
-    }
-{% endhighlight %}
 
 2.스와이프 제스처는??  
 스와이프 제스처에는 어떤 기능이 있나 봤다. (cmd + UISwipeGestureRecognizer를 클릭하면 definition 기능을 볼 수 있다.)  
