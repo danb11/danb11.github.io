@@ -30,17 +30,14 @@ swift에서 **Alimofire**라는 라이브러리는 iOS 개발자들 사이에서
 ### 1. 데이터가 어떻게 생겼나~      
 
 
-**[샘플 더미 데이터 : https://api.letsbuildthatapp.com/jsondecodable/courses]**(https://api.letsbuildthatapp.com/jsondecodable/courses)  
+**[샘플 더미 데이터 : https://api.letsbuildthatapp.com/jsondecodable/courses](https://api.letsbuildthatapp.com/jsondecodable/courses)**  
 *※ 출처:  [LBTA](https://www.letsbuildthatapp.com/)*  
   
 
 ![샘플 데이터 이미지](/assets/images/0605/dummy.png)
 샘플 더미 데이터를 클릭하면 이런 화면이 나올 것이다.  
 이걸 바탕으로 우리가 가져올 데이터가 어떤 타입인지 어떤 내용이 들어있는지 알 수 있다.  
-  
-  
-
-  
+<br />
 ![데이터 분석 이미지](/assets/images/0605/courseArray..jpeg)
 샘플 데이터는 간단한 편이지만 복잡한 데이터가 들어 있는 경우가 많기 때문에 나는 손으로 이렇게 정리하면 이해하기 쉬웠다.  
 이 데이터는 id, name, link, imageUrl, number_of_lessons 라는 속성을 가지고 있는 **Course**라는 객체가 4개가 들어있는 **Array**이다.
@@ -161,10 +158,10 @@ swift는 typecasting에 아주 엄격한 언어이기 때문에 하나라도 다
 </div>  
 
   
-데이터를 가져오는 함수 getCourseData를 viewDidLoad에 넣어줘 뷰가 로드되면서 가져올 수 있도록 했다. **dump**는 print와 달리 객체의 값까지 다 하단 디버그창에서 확인할 수 있다.   
+데이터를 가져오는 함수 getCourseData를 viewDidLoad에 넣어줘 뷰가 로드되면서 가져올 수 있도록 했다. **dump**는 print와 달리 객체의 값까지 다 하단 디버그창에서 확인할 수 있다. 
+<br />
   
    
-
   
 ![샘플 데이터 이미지](/assets/images/0605/dump.png)
 데이터가 아름답게 잘 들어왔뜨아! Decodable을 공부하면서 너무 많은 에러메시지를 보아서 이렇게 데이터가 나오면 세상 그렇게 기쁠 수가 없다.🤩  
@@ -200,6 +197,9 @@ swift는 typecasting에 아주 엄격한 언어이기 때문에 하나라도 다
 </div>  
   
 Course의 id를 Int에서 String으로 바꿔보았다.  
+<br />
+  
+  
   
     
   
