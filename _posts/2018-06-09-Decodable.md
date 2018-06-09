@@ -92,8 +92,9 @@ struct Course : Decodable {
   
 이제 우리가 만들어준 Course 구조에 서버의 데이터 내용을 넣어보자!  
   
-{% highlight swift %}
+  
 <div style="background-color: white">
+{% highlight swift %}
 
 class ApiCenter {
     
@@ -125,9 +126,9 @@ class ApiCenter {
         }.resume()
     }
 }
+{% endhighlight %}  
 </div>
 
-{% endhighlight %}
   
 앞에서 체크했듯이 우리가 가져올 데이터는 **Course가 4개 들어있는 Array**이기 떄문에 반환받는 데이터의 타입은 **[Course]**가 된다.
 swift4이후로 Decodable을 사용하면 URLSession으로 데이터를 가공해주는 코드가 확연히 줄어들었다.  
@@ -140,9 +141,9 @@ swift4이후로 Decodable을 사용하면 URLSession으로 데이터를 가공�
 두구두구-!  
 swift는 typeCasting에 아주 엄격한 언어이기 때문에 하나라도 다른 타입이 들어오면 아예 디코딩을 못한다.  
 자, 확인해봅시다.  
-
-{% highlight swift %}
+  
 <div style="background-color: #EDEDED">
+{% highlight swift %}
 
     var courses: [Course]?
 
@@ -163,9 +164,10 @@ swift는 typeCasting에 아주 엄격한 언어이기 때문에 하나라도 다
         
     }
     
+
+{% endhighlight %}  
 </div>  
 
-{% endhighlight %}
   
 데이터를 가져오는 함수 getCourseData를 viewDidLoad에 넣어줘 뷰가 로드되면서 가져올 수 있도록 했다. **dump**는 print와 달리 객체의 값까지 다 하단 디버그창에서 확인할 수 있다.
   
