@@ -30,7 +30,7 @@ swift에서 **Alimofire**라는 라이브러리는 iOS 개발자들 사이에서
 ### 1. 데이터가 어떻게 생겼나~      
 
 
-[샘플 더미 데이터](https://api.letsbuildthatapp.com/jsondecodable/courses)  
+**[샘플 더미 데이터 : https://api.letsbuildthatapp.com/jsondecodable/courses]**(https://api.letsbuildthatapp.com/jsondecodable/courses)  
 *※ 출처:  [LBTA](https://www.letsbuildthatapp.com/)*  
   
 
