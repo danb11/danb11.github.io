@@ -180,7 +180,7 @@ swift는 typeCasting에 아주 엄격한 언어이기 때문에 하나라도 다
   
 잘 들어온걸 확인했지만, 개인적으로 공부하면서 type이 mismatch되었다는 에러를 너무 많이보았습니다. 저의 불찰이지만 다시 한번 짚고 넘어가보자  
   
-<span style="background-color: #EDEDED">
+<div style="background-color: #EDEDED">
 {% highlight swift %}
 struct Course : Decodable {
     var id: String = ""
@@ -198,21 +198,15 @@ struct Course : Decodable {
     }
 }
 {% endhighlight %}
-</span>  
+</div>  
   
 Course의 id를 Int에서 String으로 바꿔보았다.  
-
   
-  {% highlight swift %}
-  <span style="background-color: #EDEDED">
+![에러 메세지](/assets/images/0605/error.png)  
 
-Error serializing json: typeMismatch(Swift.String, Swift.DecodingError.Context(codingPath: [_JSONKey(stringValue: "Index 0", intValue: 0), <br>
-CodingKeys(stringValue: "id", intValue: nil)], debugDescription: "Expected to decode String but found a number instead.", underlyingError: nil))
-  </span>  
 
-  {% endhighlight %}
+감.동. 정확히 **typeMismatch**로 "id"의 IntValue가 nil이라고 알려준다. 역시 swift는 스릉흔드...💕    
 
-감.동. 정확히 **typeMismatch**로 "id"의 IntValue가 nil이라고 알려준다. 역시 swift는 스릉흔드...💕  
   
   
   

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-06-09-Decodable.md" afterPath="$PROJECT_DIR$/_posts/2018-06-09-Decodable.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,8 +59,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-09-Decodable.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1965">
-                <caret line="220" column="5" lean-forward="false" selection-start-line="220" selection-start-column="5" selection-end-line="220" selection-end-column="5" />
+              <first_editor relative-caret-position="414">
+                <caret line="203" column="2" lean-forward="true" selection-start-line="203" selection-start-column="2" selection-end-line="203" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -151,8 +150,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="321" />
-    <option name="y" value="198" />
+    <option name="x" value="427" />
+    <option name="y" value="56" />
     <option name="width" value="1397" />
     <option name="height" value="983" />
   </component>
@@ -240,15 +239,15 @@
       <workItem from="1524290312463" duration="6002000" />
       <workItem from="1527431155153" duration="42000" />
       <workItem from="1527590109171" duration="312000" />
-      <workItem from="1528523789840" duration="9620000" />
+      <workItem from="1528523789840" duration="9892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45012000" />
+    <option name="totallyTimeSpent" value="45284000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="321" y="198" width="1397" height="983" extended-state="0" />
+    <frame x="427" y="56" width="1397" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13081396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -663,8 +662,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-09-Decodable.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1965">
-            <caret line="220" column="5" lean-forward="false" selection-start-line="220" selection-start-column="5" selection-end-line="220" selection-end-column="5" />
+          <first_editor relative-caret-position="414">
+            <caret line="203" column="2" lean-forward="true" selection-start-line="203" selection-start-column="2" selection-end-line="203" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
