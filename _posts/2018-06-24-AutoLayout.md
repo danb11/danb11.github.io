@@ -90,8 +90,8 @@ padding과 size도 함께 넣어준다.
      
 <br />
 
-만약에 redView에 top/bottom은 superView 위,아래에 붙이고, trailing은 12만큼 떨어트리고 싶으면
-![redView 응용 코드](/assets/images/0624/redView2.png)  
+만약에 redView에 top/bottom은 superView 위,아래에 붙이고, trailing은 12만큼 떨어트리고 넓ㅅ이는 125인 redView를 만들어보자
+![redView 응용 코드](/assets/images/0624/redView2.png)
 이렇게 써주면 된다. height은 0을 줘도 top/bottom을 줬기때문에 잘 적용된다!
 
 <br />
@@ -112,6 +112,8 @@ superView에 top/leading/trailing/bottom이 딱 맞는 autoLayout이 만들어�
 </div>  
 띠용-!! 아~~~주 간단해졌드아!  
 
+<br />
+<br />
 
 ### 4. 마무리  
 
@@ -123,7 +125,9 @@ https://www.letsbuildthatapp.com/ 여기의 강의를 참고했는데, 개인적
 
   
   
-    
+<br />
+<br />
+
 
 
 *※ 출처:  [LBTA_ Making Programmatic Auto Layout Easy through Extensions](https://www.letsbuildthatapp.com/course_video?id=2832)*   
