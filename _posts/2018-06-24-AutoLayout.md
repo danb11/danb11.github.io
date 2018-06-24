@@ -10,7 +10,7 @@ image-sm: /assets/images/0624/main_th.png
 ---
 
 
-## 코드로 AutoLayou 만들기.
+## 코드로 AutoLayout 만들기.
 ---
 
 
@@ -19,7 +19,7 @@ image-sm: /assets/images/0624/main_th.png
 ### 라이브러리와 스토리보드없이 AutoLayout잡기..란..?
 
 저번 편에서 이어서 핵데이를 준비하며 공부했던 내용을 써보려한다. 나는 iOS를 개발할 때, 스토리보드를 애용하는 편이다.(apple에서도 스토리보드 사용을 권장하는건 안비밀🤫) 다시 한번 제약을 말하자면 "**1.오픈소스를 사용하지 않는다. 2.스토리보드를 사용하지 않는다.**" 스토리보드를 사용하지 않고 AutoLayout을 잡아야한다.. 그건 **SnapKit**으로 밖에 안해봤는데.. SnapKit은... 라이브러리네..? 하핳...   
-가장 기본적인 하나하나 다 오토레이아웃을 추가하는 방법이 있지만, 그렇게되면 코드가 굉장히 길어지고, 나중에 코드 관리하기가 어려워진다. 그래서 각종 swift관련된 AutoLayout자료를 찾아봤다. 크게 VisualFormat과 Anchor + Constarint를 주는 2가지 방법이있는데 VisualFormat보다는 Constraints가 Extension을 이용해 간편하게 쓸 수 있다. 이번 편에는 그 방법에대해 써보려고 한다.
+가장 기본적인 하나하나 다 오토레이아웃을 추가하는 방법이 있지만, 그렇게되면 코드가 굉장히 길어지고, 나중에 코드 관리하기가 어려워진다. 그래서 각종 swift관련된 AutoLayout자료를 찾아봤다. 크게 VisualFormat과 Constarint를 주는 2가지 방법이있는데 VisualFormat보다는 Constraint가 Extension을 이용해 간편하게 쓸 수 있다. 이번 편에는 그 방법에대해 써보려고 한다.
 
   
 <br />
@@ -49,6 +49,7 @@ image-sm: /assets/images/0624/main_th.png
 
 지금 이 코드는 superView에 **top,leading,traing,bottom**을 다 붙인 코드로 일일이 다 4개를 넣어 줘야한다. 또 반복되는 코드가 보인다. 
 이걸 줄여주려면?!  
+<br />
   
   
 <div style="background-color: #EDEDED">
@@ -79,6 +80,7 @@ UIView의 Extension으로 AutoLayout을 편하게 줄 수 있는 함수를 만�
 top/leading/trailing/bottom을 매개변수를 받아준다. width나 height같이 다른 constraint로 인해 4개를 꼭 다 안줘도 될 경우도 있기때문에 optional로 만들어준다.  
 padding과 size도 함께 넣어준다.  
 
+<br />
 
 ![redView 적용 코드](/assets/images/0624/redViewAnchor.png)
 이제 아까 redView에 만들어준 Extension 함수를 적용해보자.  
@@ -86,7 +88,8 @@ padding과 size도 함께 넣어준다.
 만약에 top이나 leading이나 주지 않아도된다면 nil이라고 써주면 된다.
   
      
-  
+<br />
+
 만약에 redView에 top/bottom은 superView 위,아래에 붙이고, trailing은 12만큼 떨어트리고 싶으면
 ![redView 응용 코드](/assets/images/0624/redView2.png)  
 이렇게 써주면 된다. height은 0을 줘도 top/bottom을 줬기때문에 잘 적용된다!
@@ -107,7 +110,7 @@ superView에 top/leading/trailing/bottom이 딱 맞는 autoLayout이 만들어�
             
 {% endhighlight %}
 </div>  
-아~~~주 간단해졌습니다!  
+띠용-!! 아~~~주 간단해졌드아!  
 
 
 ### 4. 마무리  
@@ -123,8 +126,8 @@ https://www.letsbuildthatapp.com/ 여기의 강의를 참고했는데, 개인적
     
 
 
-*※ 출처:  [LBTA_ Making Programmatic Auto Layout Easy through Extensions](https://www.letsbuildthatapp.com/course_video?id=2832)* 
-*AutoLayout 애플공식문서:"  [AutoLayout 애플공식문서](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html)* 
+*※ 출처:  [LBTA_ Making Programmatic Auto Layout Easy through Extensions](https://www.letsbuildthatapp.com/course_video?id=2832)*   
+*애플공식문서:  [AutoLayout](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html)* 
 
 <br />
 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-06-09-Decodable.md" afterPath="$PROJECT_DIR$/_posts/2018-06-09-Decodable.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-06-24-AutoLayout.md" afterPath="$PROJECT_DIR$/_posts/2018-06-24-AutoLayout.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-24-AutoLayout.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
-                <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              <first_editor relative-caret-position="428">
+                <caret line="106" column="6" lean-forward="false" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -167,8 +166,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="149" />
-    <option name="y" value="61" />
+    <option name="x" value="236" />
+    <option name="y" value="127" />
     <option name="width" value="1289" />
     <option name="height" value="923" />
   </component>
@@ -262,15 +261,15 @@
       <workItem from="1527431155153" duration="42000" />
       <workItem from="1527590109171" duration="312000" />
       <workItem from="1528523789840" duration="13061000" />
-      <workItem from="1529822533623" duration="6905000" />
+      <workItem from="1529822533623" duration="7276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55358000" />
+    <option name="totallyTimeSpent" value="55729000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="149" y="61" width="1289" height="923" extended-state="0" />
+    <frame x="236" y="127" width="1289" height="923" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17586751" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -688,8 +687,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-24-AutoLayout.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <first_editor relative-caret-position="428">
+            <caret line="106" column="6" lean-forward="false" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
