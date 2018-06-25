@@ -85,12 +85,12 @@ padding과 size도 함께 넣어준다.
 ![redView 적용 코드](/assets/images/0624/redViewAnchor.png)
 이제 아까 redView에 만들어준 Extension 함수를 적용해보자.  
 자아- 한 줄로 정리가 됐다!!  
-만약에 top이나 leading이나 주지 않아도된다면 nil이라고 써주면 된다.
+top이나 leading을 안줘도 된다면 nil이라고 써주면 된다.
   
      
 <br />
 
-만약에 redView에 top/bottom은 superView 위,아래에 붙이고, trailing은 12만큼 떨어트리고 넓ㅅ이는 125인 redView를 만들어보자
+만약에 redView에 top/bottom은 superView 위,아래에 붙이고, trailing은 12만큼 떨어트리고 넓이는 125인 redView를 만들어보자
 ![redView 응용 코드](/assets/images/0624/redView2.png)
 이렇게 써주면 된다. height은 0을 줘도 top/bottom을 줬기때문에 잘 적용된다!
 
