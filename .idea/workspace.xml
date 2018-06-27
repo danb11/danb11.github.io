@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-06-24-AutoLayout.md" afterPath="$PROJECT_DIR$/_posts/2018-06-24-AutoLayout.md" />
-    </list>
+    <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -73,8 +70,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-24-AutoLayout.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="259">
-                <caret line="82" column="6" lean-forward="true" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+              <first_editor relative-caret-position="349">
+                <caret line="88" column="2" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -263,12 +260,12 @@
       <workItem from="1527590109171" duration="312000" />
       <workItem from="1528523789840" duration="13061000" />
       <workItem from="1529822533623" duration="7879000" />
-      <workItem from="1529893137957" duration="62000" />
+      <workItem from="1529893137957" duration="543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56394000" />
+    <option name="totallyTimeSpent" value="56875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="316" y="127" width="1289" height="923" extended-state="0" />
@@ -689,8 +686,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-24-AutoLayout.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="259">
-            <caret line="82" column="6" lean-forward="true" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+          <first_editor relative-caret-position="349">
+            <caret line="88" column="2" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
