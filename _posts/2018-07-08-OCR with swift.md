@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OCR Tesseract"
+title: "OCR Tesseract in iOS"
 date: 2018-07-08
 categories:
   - iOS
