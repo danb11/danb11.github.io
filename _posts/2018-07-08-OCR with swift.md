@@ -79,10 +79,10 @@ image-sm: /assets/images/0708/main_th.png
 
 ![xcode 세팅1](/assets/images/0708/bitcode1.png)
 1. Build Settings에서 enable bitcode를 **No**로 설정해준다.  
-
+<br />
 ![xcode 세팅2](/assets/images/0708/bitcode2.png)
 2. pods의 TesseractOCRiOS 타겟의 Build Settings도 마찬가지로 enable bitcode를 **No**로 바꿔준다.  
-
+<br />
 ![xcode 세팅3](/assets/images/0708/setting.png)
 3-1. Link Binary With Libraries에 이미지와 같이 **libstdc++.dylib, CoreImage.framework, and TesseractOCR.framework**를 +버튼을 눌러서 추가해준다.
 3-2. Copy Bundle Resources에 tessdata 언어팩을 다운받아 추가해준다. 나는 *[다운](https://github.com/tesseract-ocr/tessdata)* 받아서 넣어줬다.(꼭x1000000 폴더로 넣어줘야한다.) ~~바보같이 파일로 넣어서 끙끙거린 1인~~  
@@ -105,7 +105,7 @@ Tesseract 코드를 먼저 써보자.
             
 {% endhighlight %}
 </div>  
-![xcode 세팅2](/assets/images/0708/reco.png)
+    
 1. 먼저! Tesseract를 import해주자.  
 
 ![xcode 세팅2](/assets/images/0708/reco.png)
@@ -130,7 +130,7 @@ textView에 이미지에서 인식한 text를 넣어줬다. Tesseract에 관련�
 ### 4. 마무리  
 
 OCR이라는 생소한 기능이지만, 하나하나 혼자 할 수 있는 것이 늘어가는 뿌듯함이 생각보다 크다!  
-전에 2가지 글은 라이브러리를 사용하지 않는 글이었지만 갑자기 라이브러리로 큰 뿌듯함을 느껴 되게 이중적인 것 같다 읔... 하지만 OCR이라는 엄청난 기능을 내가 이해하고 사용한 경험이 재미있고 신기했다! 시간이될 때 오픈소스를 뜯어봐야겠다. ~~언젠가느으으으은~~  
+전에 2가지 글은 라이브러리를 사용하지 않는 글이었지만 갑자기 라이브러리로 큰 뿌듯함을 느껴 되게 이중적인 것 같다 읔... 하지만 OCR이라는 엄청난 기능을 내가 이해하고 사용한 경험이 재미있고 신기했다! 시간이될 때 오픈소스를 뜯어봐야겠다.😂 ~~또 하나의 부채 추가요~ 흡... 언젠가느으으으은~~ 
 
 
   
