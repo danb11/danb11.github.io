@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="" />
+    <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/_posts/2018-07-08-OCR with swift.md" afterPath="$PROJECT_DIR$/_posts/2018-07-08-OCR with swift.md" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -44,8 +46,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-08-OCR with swift.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="485">
-                <caret line="125" column="16" lean-forward="false" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -249,12 +251,12 @@
       <workItem from="1528523789840" duration="13061000" />
       <workItem from="1529822533623" duration="7879000" />
       <workItem from="1529893137957" duration="543000" />
-      <workItem from="1531031881680" duration="8437000" />
+      <workItem from="1531031881680" duration="8865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65312000" />
+    <option name="totallyTimeSpent" value="65740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="303" y="32" width="1436" height="1018" extended-state="0" />
@@ -674,8 +676,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-08-OCR with swift.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="485">
-            <caret line="125" column="16" lean-forward="false" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
             <folding />
           </first_editor>
           <second_editor />

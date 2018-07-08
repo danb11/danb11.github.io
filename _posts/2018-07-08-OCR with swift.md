@@ -5,8 +5,8 @@ date: 2018-07-08
 categories:
   - iOS
 description: Tesseract를 이용해 OCR기능을 추가합시. 
-image: /assets/images/0624/main.png
-image-sm: /assets/images/0624/main_th.png
+image: /assets/images/0708/main.png
+image-sm: /assets/images/0708/main_th.png
 ---
 
 
