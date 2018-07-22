@@ -77,7 +77,7 @@ swift에서 **Alamofire**라는 라이브러리는 iOS 개발자들 사이에서
 여기서 **Decodable**이 뭘까 궁금증이 생길 것이다.  
 이번에 새로 공부하며 Codable이란 것을 알게 되었다. Codable에는 Decodable과 Encodable이 있는데 말 그대로 데이터를 네트워크에서 가져올 때 내가 원하는 타입으로 변환해 가져오고, 보낼 수 있는 것이다.  
 나는 서버에 보낼 일은 없고 가져와서 사용할 예정이라 Decodable을 사용했다. 코드처럼 struct에 Decodable 프로토콜을 추가해주면 된다.  
-*[Codable 애플 문서](https://www.letsbuildthatapp.com/)*  
+*[Codable 애플 문서](https://developer.apple.com/documentation/swift/codable)*  
   
 **CodingKeys**는 서버에서 사용하는 변수명과 내가 사용할 변수명이 다를 경우 같게 써줘 코딩키를 맞추는 작업이다.
 
