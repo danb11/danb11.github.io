@@ -29,9 +29,9 @@ Picker View만 사용하다가 DatePicker를 사용할 기회가 없었는데 �
 ### 1. 스토리보드에서 설정      
 
 ![xcode 스토리보드](/assets/images/0722/story.png)
-1. 스토리보드에 **DatePicker**를 추가해준다.
-2. **ToolBar**도 DatePicker 상단에 넣어준다. (버튼 설정은 알아서~)
-3. 피커에 선택하면 나타내줄 **Label**도 넣어준다.
+1.스토리보드에 **DatePicker**를 추가해준다.
+2.**ToolBar**도 DatePicker 상단에 넣어준다. (버튼 설정은 알아서~)
+3.피커에 선택하면 나타내줄 **Label**도 넣어준다.
 
   
 <br />
@@ -43,7 +43,8 @@ Picker View만 사용하다가 DatePicker를 사용할 기회가 없었는데 �
   
 ![xcode 세팅2](/assets/images/0722/dateSetting.png)
 1.DatePicker와 Label의 Outlet 연결한다.  
-2.Date의 minimumDate를 Date()로 설정해주면 오늘 날짜로 설정된다.
+2.Date의 minimumDate를 Date()로 설정해주면 오늘 날짜로 설정된다.  
+
 <br />
   
 ![액션연결](/assets/images/0722/action.png)
@@ -53,7 +54,7 @@ Picker View만 사용하다가 DatePicker를 사용할 기회가 없었는데 �
 <br />
   
 ![extension](/assets/images/0722/extension.png)
-5. Extension에 Date를 String으로 바꿔주는 변수를 만들어준다. 나는 **월,일,요일,오전오후,시간**순으로 나열하고 싶어서 formatter로 설정해줬다. 나타내고싶은대로 설정해주면 된다.
+5.Extension에 Date를 String으로 바꿔주는 변수를 만들어준다. 나는 **월,일,요일,오전오후,시간**순으로 나열하고 싶어서 formatter로 설정해줬다. 나타내고싶은대로 설정해주면 된다.
 
 <br />
 <br />
@@ -63,13 +64,14 @@ Picker View만 사용하다가 DatePicker를 사용할 기회가 없었는데 �
 ### 3. 완성!!  
 
 ![완성뷰](/assets/images/0722/done.png)
-다 됐다. 날짜를 선택하면 Label이 바뀐다.  
+1.다 됐다. 날짜를 선택하면 Label이 바뀐다.  
     
     
 <br />
 
 ![완성뷰](/assets/images/0722/dateSet.png)
-2. 다른 디테일한 설정은 여기서 할 수 있다. **Mode**에서 날짜/시간/날짜+시간/타이머를 선택할 수 있다. **Local**에서는 지역(언어)를 선택할 수 있고, **Interval**은 분 최소단위를 설정한다.  
+2.다른 디테일한 설정은 여기서 할 수 있다.  
+**Mode**에서 날짜/시간/날짜+시간/타이머를 선택할 수 있다. **Local**에서는 지역(언어)를 선택할 수 있고, **Interval**은 분 최소단위를 설정한다.  
 
 
 <br />
