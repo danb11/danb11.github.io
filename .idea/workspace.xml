@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/_posts/2018-07-08-OCR with swift.md" afterPath="$PROJECT_DIR$/_posts/2018-07-08-OCR with swift.md" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-07-22-DatePicker.md" afterPath="$PROJECT_DIR$/_posts/2018-07-22-DatePicker.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -59,8 +60,21 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-22-DatePicker.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="364">
-                <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <first_editor relative-caret-position="139">
+                <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-07-08-OCR with swift.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-07-08-OCR with swift.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="975">
+                <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -128,6 +142,7 @@
       <find>post.url</find>
       <find>white</find>
       <find>확인할 수 있다</find>
+      <find>이미지로된</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/_posts</dir>
@@ -155,8 +170,8 @@
         <option value="$PROJECT_DIR$/_posts/2018-04-21-SwiftGesture1.md" />
         <option value="$PROJECT_DIR$/_posts/2018-05-26-SwiftGesture2.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-24-AutoLayout.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-07-08-OCR with swift.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-09-Decodable.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-07-08-OCR with swift.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-22-DatePicker.md" />
       </list>
     </option>
@@ -262,12 +277,12 @@
       <workItem from="1529893137957" duration="543000" />
       <workItem from="1531031881680" duration="9627000" />
       <workItem from="1532241173370" duration="2070000" />
-      <workItem from="1532266147401" duration="4252000" />
+      <workItem from="1532266147401" duration="4643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72824000" />
+    <option name="totallyTimeSpent" value="73215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-61" y="92" width="1436" height="881" extended-state="0" />
@@ -650,16 +665,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-08-OCR with swift.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="590">
-            <caret line="133" column="73" lean-forward="false" selection-start-line="133" selection-start-column="73" selection-end-line="133" selection-end-column="73" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-09-Decodable.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -682,11 +687,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-08-OCR with swift.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="975">
+            <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-22-DatePicker.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="364">
-            <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <first_editor relative-caret-position="139">
+            <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
             <folding />
           </first_editor>
           <second_editor />

@@ -18,7 +18,7 @@ image-sm: /assets/images/0708/main_th.png
 <br/>
 ### OCR이 뭐야...
 
-단도직입적으로 **Optical character recognition** (also optical character reader, OCR) 은 단어 그대로 이미지로된 문자(인쇄 혹은 손글씨)를 Text로 바꿔주는 장치라고 한다. 개인적으로 OCR이라는 단어는 처음 들어봤다. 지금 회사에서 개발하고 있는 애플리케이션에 추가되어야하는 기능이라 라이브러리를 이용해 추가하게되었다.  
+단도직입적으로 **Optical character recognition** (also optical character reader, OCR) 은 단어 그대로 이미지로 된 문자(인쇄 혹은 손글씨)를 Text로 바꿔주는 장치라고 한다. 개인적으로 OCR이라는 단어는 처음 들어봤다. 지금 회사에서 개발하고 있는 애플리케이션에 추가되어야하는 기능이라 라이브러리를 이용해 추가하게되었다.  
 안드로이드에서 먼저 **Tesseract**로 ocr을 구현해 iOS에서도 같은 라이브러리를 사용했다. Ray Wenderlich 글을 많이 참고해 거의 번역글이라도 봐도 무관하나 조금 더 간단히 이미지 -> 문자로 바뀌는 코드만 설명해볼까 한다.  
   
 *참고: Ray Wenderlich [Tesseract OCR Tutorial for iOS](https://www.raywenderlich.com/163445/tesseract-ocr-tutorial-ios)* 
