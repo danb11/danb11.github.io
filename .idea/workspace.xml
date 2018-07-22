@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54593bf0-124c-4a22-a104-e02407bd2a77" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-06-09-Decodable.md" afterPath="$PROJECT_DIR$/_posts/2018-06-09-Decodable.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-07-22-DatePicker.md" afterPath="$PROJECT_DIR$/_posts/2018-07-22-DatePicker.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,8 +59,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-22-DatePicker.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="114">
-                <caret line="42" column="2" lean-forward="false" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+              <first_editor relative-caret-position="-296">
+                <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -263,12 +262,12 @@
       <workItem from="1529893137957" duration="543000" />
       <workItem from="1531031881680" duration="9627000" />
       <workItem from="1532241173370" duration="2070000" />
-      <workItem from="1532266147401" duration="3893000" />
+      <workItem from="1532266147401" duration="4074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72465000" />
+    <option name="totallyTimeSpent" value="72646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-61" y="92" width="1436" height="881" extended-state="0" />
@@ -686,8 +685,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-22-DatePicker.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="42" column="2" lean-forward="false" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+          <first_editor relative-caret-position="-296">
+            <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
             <folding />
           </first_editor>
           <second_editor />
